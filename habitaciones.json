@@ -1,0 +1,30 @@
+[
+    {
+      "title": "Habitación a Estrenar",
+      "image": "habitacion1.jpg",
+      "description": "EAPT EN PALERMO, 2 AMBIENTES, ROOM CON AIRE ACONDICIONADO, LIVING COMEDOR CON A/C TAMBIEN, PISO 6 A LA CALLE. EL APT ES MUY LUMINOSO, DURANTE EL DIA PRACTICAMENTE NO PRENDES LAS LUCES, TODOS LOS AMBIENTES, ROOM/COCINA/LIVING DAN A LA CALLE, CUENTA CON LAVARROPAS.",
+      "rooms": 1,
+      "bathrooms": 1,
+      "area": 100,
+      "price": "US$500 mensuales"
+    },
+    {
+      "title": "Dormitorio Amueblado",
+      "image": "habitacion2.jpg",
+      "description": "Excelente dormitorio amueblado, con cama matrimonial, TV, Aire Acondicionado, Heladera, Ropero, mesas de luz, 1 sillon, 2 sillas, mesa ratona y escritorio para trabajar.",
+      "rooms": 1,
+      "bathrooms": 1,
+      "area": 20,
+      "price": "$100,000 mensuales"
+    },
+    {
+      "title": "Habitación en Ubicación Ideal",
+      "image": "habitacion3.jpg",
+      "description": "Hermosa habitación en ubicación céntrica, cuenta con 2 terrazas, un gran living y sala de estar. Está a 30 minutos del subte.",
+      "rooms": 1,
+      "bathrooms": 1,
+      "area": 40,
+      "price": "$100,000 mensuales"
+    }
+  ]
+  

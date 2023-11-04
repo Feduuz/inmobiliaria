@@ -1,0 +1,30 @@
+[
+    {
+      "title": "Estreno de Polo Residencial",
+      "image": "departamento1.jpg",
+      "description": "El barrio que acoge a Viva Santa Elena es hoy, un polo de desarrollo residencial con eje en la conectividad y el trabajo independiente, donde la cercanía a las estaciones de metro te permitirá moverte con velocidad entre las avenidas más importantes de la capital.",
+      "rooms": 2,
+      "bathrooms": 2,
+      "area": 50,
+      "price": "US$90,000"
+    },
+    {
+      "title": "Excelente Departamento de Categoria",
+      "image": "departamento2.jpg",
+      "description": "Edificio de 4 pisos con 15 dptos, gran confort y diseño. En cuarto piso se ubica: terraza verde con piscina, solárium, asador, cocina y toillete, y SUM. Amplio estacionamiento en subsuelo. Excelente hall de acceso.",
+      "rooms": 2,
+      "bathrooms": 1,
+      "area": 100,
+      "price": "US$100,000"
+    },
+    {
+      "title": "Departamento Exclusivo",
+      "image": "departamento3.jpg",
+      "description": "Piscina con Deck Solarium, Parrillas, Sanatorios, Vestuarios, Lavandería, Seguridad y Conserjería las 24hs.",
+      "rooms": 1,
+      "bathrooms": 1,
+      "area": 100,
+      "price": "US$155,000"
+    }
+  ]
+  

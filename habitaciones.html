@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Habitaciones de Hotel</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="menu.css">
+    </head>
+
+    <body>
+        <header>
+            <nav class="barra">
+                <div class="barra-logo">
+                        <a href="index.html"><img src="images/logo-fondo-blanco.png"></a>
+                        <div class="dots menu">
+                        <button class="menu-btn" >
+                                <input id="check" type="checkbox">
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+
+                            </div>    
+                        </button>
+                </div>
+            </nav>
+
+                <ul class="menu-list">
+                    <li>
+                      <a href="">Inmuebles</a>
+                      <ul class="submenu">
+                        <li><a href="casas.html">Casas</a></li>
+                        <li><a href="departamentos.html">Departamentos</a></li>
+                        <li><a href="habitaciones.html">Habitaciones de Hotel</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="index.html">Sobre nosotros</a></li>
+                    <li><a href="index.html">Contacto</a></li>
+                  </ul>
+        </header>
+
+        <div class="space-filter">
+          <input type="text" id="price-filter" placeholder="Filtrar por precio en US$" />
+          <button id="filter-button">Filtrar</button>     
+          <button><a href="habitaciones.json">JSON SUITE'S</a></button>  
+        </div>
+
+
+
+        <div class="container">
+            <div class="box">
+              <div class="top">
+                <img src="images/habitacion1.jpg" alt="" />
+                <span><i class="fas fa-heart"></i><i class="fas fa-exchange-alt"></i></span>
+              </div>
+              <div class="bottom">
+                <h3>Habitación a Estrenar</h3>
+                <p>
+                    APT EN PALERMO, 2 AMBIENTES, ROOM CON AIRE ACONDICIONADO, LIVING COMEDOR CON A/C TAMBIEN, PISO 6 A LA CALLE. EL APT ES MUY LUMINOSO, DURANTE EL DIA PRACTICAMENTE NO PRENDES LAS LUCES, TODOS LOS AMBIENTES, ROOM/COCINA/LIVING DAN A LA CALLE, CUENTA CON LAVARROPAS.
+                </p>
+                <div class="advants">
+                  <div>
+                    <span>Habitaciones</span>
+                    <div><i class="fas fa-th-large"></i><span>1</span></div>
+                  </div>
+                  <div>
+                    <span>Baños</span>
+                    <div><i class="fas fa-shower"></i><span>1</span></div>
+                  </div>
+                  <div>
+                    <span>Área</span>
+                    <div>
+                      <i class="fas fa-vector-square"></i><span>100<span>m2</span></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="price">
+                  <span>Precio</span>
+                  <span>US$500 mensuales</span>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="top">
+                <img src="images/habitacion2.jpg" alt="" />
+                <span><i class="fas fa-heart"></i><i class="fas fa-exchange-alt"></i></span>
+              </div>
+              <div class="bottom">
+                <h3>Dormitorio Amueblado</h3>
+                <p>
+                    Excelente dormitorio amueblado, con cama matrimonial, TV, Aire Acondicionado, Heladera, Ropero, mesas de luz, 1 sillon, 2 sillas, mesa ratona y escritorio para trabajar.
+                </p>
+                <div class="advants">
+                  <div>
+                    <span>Habitaciones</span>
+                    <div><i class="fas fa-th-large"></i><span>1</span></div>
+                  </div>
+                  <div>
+                    <span>Baños</span>
+                    <div><i class="fas fa-shower"></i><span>1</span></div>
+                  </div>
+                  <div>
+                    <span>Área</span>
+                    <div>
+                      <i class="fas fa-vector-square"></i><span>20<span>m2</span></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="price">
+                  <span>Precio</span>
+                  <span>US$250 mensuales</span>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="top">
+                <img src="images/habitacion3.jpg" alt="" />
+                <span><i class="fas fa-heart"></i><i class="fas fa-exchange-alt"></i></span>
+              </div>
+              <div class="bottom">
+                <h3>Habitación en Ubicación Ideal</h3>
+                <p>
+                    Hermosa habitación en ubicación céntrica, cuenta con 2 terrazas, un gran living y sala de estar. Está a 30 minutos del subte.
+                </p>
+                <div class="advants">
+                  <div>
+                    <span>Habitaciones</span>
+                    <div><i class="fas fa-th-large"></i><span>1</span></div>
+                  </div>
+                  <div>
+                    <span>Baños</span>
+                    <div><i class="fas fa-shower"></i><span>1</span></div>
+                  </div>
+                  <div>
+                    <span>Área</span>
+                    <div>
+                      <i class="fas fa-vector-square"></i><span>40<span>m2</span></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="price">
+                  <span>Precio</span>
+                  <span>US$300 mensual</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <footer class="footer">
+            <div class="footer__redes">
+                <ul class="footer__redes-wrapper">
+                    <li>
+                        <a href="https://www.facebook.com" class="footer__link">
+                            <i class="facebook"></i>
+                            facebook
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.twitter.com" class="footer__link">
+                            <i class="twitter"></i>
+                            twitter
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com" class="footer__link">
+                            <i class="instagram"></i>
+                            instagram
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com" class="footer__link">
+                            <i class="youtube"></i>
+                            youtube
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="separador"></div>
+            <p class="footer__texto">Blanco Federico - 2023</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>

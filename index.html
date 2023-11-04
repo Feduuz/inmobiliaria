@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Inmobiliaria Blanco</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="menu.css">
+    </head>
+
+    <body>
+        <header>
+            <nav class="barra">
+                <div class="barra-logo">
+                        <a href="index.html"><img src="images/logo-fondo-blanco.png"></a>
+                        <div class="dots menu">
+                        <button class="menu-btn" >
+                                <input id="check" type="checkbox">
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                            </div>    
+                        </button>
+                </div>
+            </nav>
+
+                <ul class="menu-list">
+                    <li>
+                      <a href="">Inmuebles</a>
+                      <ul class="submenu">
+                        <li><a href="casas.html">Casas</a></li>
+                        <li><a href="departamentos.html">Departamentos</a></li>
+                        <li><a href="habitaciones.html">Habitaciones de Hotel</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#historia">Sobre nosotros</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                  </ul>
+        </header>
+
+        <div class="flexbox">
+            <div class="card" >
+                <a href="casas.html"><img src="images/casa1.png"></a>
+            </div>
+            <div class="card">
+                <a href="departamentos.html"><img src="images/dpto1.png"></a>
+            </div>
+            <div class="card">
+                <a href="habitaciones.html"><img src="images/suite1.png"></a>
+            </div>
+        </div>
+
+        <div class="blog">
+            <a name="historia"></a>
+            <img src="images/historia.png" width="100%">
+        </div>
+
+          <div class="contenedor" id="form">
+            <form id="tu-formulario">
+                <a name="contacto"></a>
+                <div class="field" tabindex="1">
+                    <label for="username">
+                        <i class="far fa-user"></i>Nombre:
+                    </label>
+                    <input id="usuario" type="text" placeholder="Escriba aquí" required>
+                </div>
+                <div class="field" tabindex="2">
+                    <label for="email">
+                        <i class="far fa-envelope"></i>Correo:
+                    </label>
+                    <input id="correo" type="text" placeholder="email@domain.com" required>
+                </div>
+                <div class="field" tabindex="3">
+                    <label for="message">
+                        <i class="far fa-edit"></i>Mensaje:
+                    </label>
+                    <textarea id="message" placeholder="Escriba aquí" required></textarea>
+                </div>
+                <button type="submit">¡Envíanos un mensaje!</button>
+            </form>
+        </div>
+
+    <footer class="footer">
+        <div class="footer__redes">
+            <ul class="footer__redes-wrapper">
+                <li>
+                    <a href="https://www.facebook.com" class="footer__link">
+                        <i class="facebook"></i>
+                        facebook
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com" class="footer__link">
+                        <i class="twitter"></i>
+                        twitter
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com" class="footer__link">
+                        <i class="instagram"></i>
+                        instagram
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com" class="footer__link">
+                        <i class="youtube"></i>
+                        youtube
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="separador"></div>
+        <p class="footer__texto">Blanco Federico - 2023</p>
+    </footer>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

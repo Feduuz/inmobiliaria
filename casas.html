@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Casas</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="menu.css">
+    </head>
+
+    <body>
+        <header>
+            <nav class="barra">
+                <div class="barra-logo">
+                        <a href="index.html"><img src="images/logo-fondo-blanco.png"></a>
+                        <div class="dots menu">
+                        <button class="menu-btn" >
+                                <input id="check" type="checkbox">
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                            </div>    
+                        </button>
+                </div>
+            </nav>
+
+                <ul class="menu-list">
+                    <li>
+                      <a href="">Inmuebles</a>
+                      <ul class="submenu">
+                        <li><a href="casas.html">Casas</a></li>
+                        <li><a href="departamentos.html">Departamentos</a></li>
+                        <li><a href="habitaciones.html">Habitaciones de Hotel</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="index.html">Sobre nosotros</a></li>
+                    <li><a href="index.html">Contacto</a></li>
+                  </ul>
+        </header>
+
+        <div class="space-filter">
+          <input type="text" id="price-filter" placeholder="Filtrar por precio en US$" />
+          <button id="filter-button">Filtrar</button>        
+          <button><a href="casas.json">JSON CASAS</a></button>
+        </div> 
+
+        <div class="container">
+            <div class="box">
+              <div class="top">
+                <img src="images/casa1.jpeg" alt="" />
+                <span><i class="fas fa-heart"></i><i class="fas fa-exchange-alt"></i></span>
+              </div>
+              <div class="bottom">
+                <h3>Casa en Barrio Cerrado</h3>
+                <p>
+                    La casa se encuentra desarrollada en una sola planta con: Cocina comedor. Amplio living comedor Entre piso de madera (escritorio) 4 habitaciones 3 baños, uno con hidromasajes Lavandería Cochera cerrada para 3 vehículos/Quincho Gran parquizado con frutales y Piscina.
+                </p>
+                <div class="advants">
+                  <div>
+                    <span>Habitaciones</span>
+                    <div><i class="fas fa-th-large"></i><span>4</span></div>
+                  </div>
+                  <div>
+                    <span>Baños</span>
+                    <div><i class="fas fa-shower"></i><span>3</span></div>
+                  </div>
+                  <div>
+                    <span>Área</span>
+                    <div>
+                      <i class="fas fa-vector-square"></i><span>990<span>m2</span></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="price">
+                  <span>Precio</span>
+                  <span>US$210,000</span>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="top">
+                <img src="images/casa2.png" alt="" />
+                <span><i class="fas fa-heart"></i><i class="fas fa-exchange-alt"></i></span>
+              </div>
+              <div class="bottom">
+                <h3>Casa Temporal de Categoria</h3>
+                <p>
+                    Habitación principal en suite , tres habitaciones secundarias dos de ellas con cama matrimonial, baño divisorio con excelente distribución, sala de estar con chimenea, cocina, y un hermoso parquizado con pileta. 
+                </p>
+                <div class="advants">
+                  <div>
+                    <span>Habitaciones</span>
+                    <div><i class="fas fa-th-large"></i><span>3</span></div>
+                  </div>
+                  <div>
+                    <span>Baños</span>
+                    <div><i class="fas fa-shower"></i><span>2</span></div>
+                  </div>
+                  <div>
+                    <span>Área</span>
+                    <div>
+                      <i class="fas fa-vector-square"></i><span>750<span>m2</span></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="price">
+                  <span>Precio</span>
+                  <span>US$200</span>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="top">
+                <img src="images/casa3.jpg" alt="" />
+                <span><i class="fas fa-heart"></i><i class="fas fa-exchange-alt"></i></span>
+              </div>
+              <div class="bottom">
+                <h3>Casa en Prestigioso Barrio</h3>
+                <p>
+                    La misma se encuentra constituida en planta baja por amplio hall de distribución, comedor diario, living comedor con hogar, cocina comedor de grandes dimensiones con barra tipo desayunador, toilette, lavandería y cochera.
+                </p>
+                <div class="advants">
+                  <div>
+                    <span>Habitaciones</span>
+                    <div><i class="fas fa-th-large"></i><span>2</span></div>
+                  </div>
+                  <div>
+                    <span>Baños</span>
+                    <div><i class="fas fa-shower"></i><span>2</span></div>
+                  </div>
+                  <div>
+                    <span>Área</span>
+                    <div>
+                      <i class="fas fa-vector-square"></i><span>300<span>m2</span></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="price">
+                  <span>Precio</span>
+                  <span>US$180,000</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <footer class="footer">
+            <div class="footer__redes">
+                <ul class="footer__redes-wrapper">
+                    <li>
+                        <a href="https://www.facebook.com" class="footer__link">
+                            <i class="facebook"></i>
+                            facebook
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.twitter.com" class="footer__link">
+                            <i class="twitter"></i>
+                            twitter
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com" class="footer__link">
+                            <i class="instagram"></i>
+                            instagram
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com" class="footer__link">
+                            <i class="youtube"></i>
+                            youtube
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="separador"></div>
+            <p class="footer__texto">Blanco Federico - 2023</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>

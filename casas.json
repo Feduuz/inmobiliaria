@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Casa en Barrio Cerrado",
+    "image": "casa1.jpeg",
+    "description": "La casa se encuentra desarrollada en una sola planta con: Cocina comedor. Amplio living comedor Entre piso de madera (escritorio) 4 habitaciones 3 baños, uno con hidromasajes Lavandería Cochera cerrada para 3 vehículos/Quincho Gran parquizado con frutales y Piscina.",
+    "rooms": 4,
+    "bathrooms": 3,
+    "area": 990,
+    "price": "US$210,000"
+  },
+  {
+    "title": "Casa Temporal de Categoria",
+    "image": "casa2.png",
+    "description": "Habitación principal en suite , tres habitaciones secundarias dos de ellas con cama matrimonial, baño divisorio con excelente distribución, sala de estar con chimenea, cocina, y un hermoso parquizado con pileta.",
+    "rooms": 3,
+    "bathrooms": 2,
+    "area": 750,
+    "price": "US$200,000"
+  },
+  {
+    "title": "Casa en Prestigioso Barrio",
+    "image": "casa3.jpg",
+    "description": "La misma se encuentra constituida en planta baja por amplio hall de distribución, comedor diario, living comedor con hogar, cocina comedor de grandes dimensiones con barra tipo desayunador, toilette, lavandería y cochera.",
+    "rooms": 2,
+    "bathrooms": 2,
+    "area": 300,
+    "price": "US$180,000"
+  }
+]
