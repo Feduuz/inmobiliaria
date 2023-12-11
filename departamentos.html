@@ -40,7 +40,20 @@
         <div class="space-filter">
           <input type="text" id="price-filter" placeholder="Filtrar por precio en US$" />
           <button id="filter-button">Filtrar</button> 
-          <button><a href="departamentos.json">JSON DPTOS</a></button>       
+          <button id="boton-dptos">JSON DPTOS</button>
+          <table id="campo-dptos" class="oculto">
+            <thead>
+              <tr>
+                <th>Título</th>
+                <th>Descripción</th>
+                <th>Habitaciones</th>
+                <th>Baños</th>
+                <th>Área</th>
+                <th>Precio</th>
+              </tr>
+            </thead>
+            <tbody id="campo-dptos-res"></tbody>
+          </table>
         </div>
 
         <div class="container">

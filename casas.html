@@ -40,7 +40,20 @@
         <div class="space-filter">
           <input type="text" id="price-filter" placeholder="Filtrar por precio en US$" />
           <button id="filter-button">Filtrar</button>        
-          <button><a href="casas.json">JSON CASAS</a></button>
+          <button id="boton-casas">JSON CASAS</button>
+            <table id="campo-casas" class="oculto">
+              <thead >
+                <tr>
+                  <th>Título</th>
+                  <th>Descripción</th>
+                  <th>Habitaciones</th>
+                  <th>Baños</th>
+                  <th>Área</th>
+                  <th>Precio</th>
+                </tr>
+              </thead>
+              <tbody id="campo-casas-res"></tbody>
+            </table>
         </div> 
 
         <div class="container">

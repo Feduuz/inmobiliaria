@@ -516,3 +516,7 @@ body{
     text-align: center;
     padding-top: 3px;
   }
+
+  .oculto {
+    display: none;
+  }

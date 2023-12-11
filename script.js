@@ -23,6 +23,50 @@ document.getElementById("filter-button").addEventListener("click", function () {
   });
 }); 
 
+function cargarDatos(url, resultSelector, fieldSelector) {
+  const xhttp = new XMLHttpRequest();
+
+  xhttp.open('GET', url, true);
+  xhttp.send();
+
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      let datos = JSON.parse(this.responseText);
+      let resultElement = document.querySelector(resultSelector);
+      let thElement = document.querySelector(fieldSelector);
+
+      resultElement.innerHTML = '';
+      thElement.classList.remove('oculto');
+
+      for (let item of datos) {
+        resultElement.innerHTML += `
+          <tr>
+            <td>${item.title}</td>
+            <td>${item.description}</td>
+            <td>${item.rooms}</td>
+            <td>${item.bathrooms}</td>
+            <td>${item.area}</td>
+            <td>${item.price}</td>
+          </tr>`;
+      }
+    }
+  };
+};
+
+function agregarEventoBoton(selector, archivoJSON, resultSelector, fieldSelector) {
+  const boton = document.querySelector(selector);
+
+  if (boton) {
+    boton.addEventListener('click', () => cargarDatos(archivoJSON, resultSelector, fieldSelector));
+  } else {
+    console.error(`No se encontró el botón con selector: ${selector}`);
+  }
+}
+
+agregarEventoBoton('#boton-suite', 'habitaciones.json', '#campo-suite-res', '#campo-suite');
+agregarEventoBoton('#boton-dptos', 'departamentos.json', '#campo-dptos-res', '#campo-dptos');
+agregarEventoBoton('#boton-casas', 'casas.json', '#campo-casas-res', '#campo-casas');
+
 const expresiones = {
   nombres: /^[a-zA-ZÀ-ÿ\s]{3,40}$/, // Letras y espacios, pueden llevar acentos.
   email: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
